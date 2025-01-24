@@ -4,7 +4,7 @@ A simple file-based router built using Node.js. It generates routes based on the
 
 ## Features
 
-- **Directory Routes**: It generates routes based on the `pages` directory's file structure.
+- **File-System Based Router**: It generates routes based on the `pages` directory's file structure.
 
 - **Custom 404 Page**: Serves a custom 404 page if the requested route is not found.
 
@@ -28,7 +28,7 @@ pages
 │   ├── index.html -> mysite.com/settings
 │   ├── profile.html -> mysite.com/settings/profile
 │   └── notifications.html -> mysite.com/settings/notifications
-└── 404.html
+└── 404.html -> mysite.com/this-page-does-not-exist
 ```
 
 ## Code Overview
